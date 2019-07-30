@@ -6,4 +6,8 @@ class UsersController<ApplicationController
   def new
     @name = "I am the New action "
   end
+
+  def edit
+    @name = "I am the Edit action"
+  end
 end

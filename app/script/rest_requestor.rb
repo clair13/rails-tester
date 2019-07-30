@@ -10,6 +10,10 @@ url1 = "http://localhost:3000/users/new"
 
 puts RestClient.get(url1)
 
+url2 = "http://localhost:3000/users/1/edit"
+
+puts RestClient.get(url2)
+
 =begin 
   users GET    /users(.:format)                                                                         users#index
                           POST   /users(.:format)                                                                         users#create
