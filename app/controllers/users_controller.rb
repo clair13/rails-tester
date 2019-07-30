@@ -10,4 +10,8 @@ class UsersController<ApplicationController
   def edit
     @name = "I am the Edit action"
   end
+
+  def show
+    @name = "I am the Show action"
+  end
 end

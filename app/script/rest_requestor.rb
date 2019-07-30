@@ -14,11 +14,6 @@ url2 = "http://localhost:3000/users/1/edit"
 
 puts RestClient.get(url2)
 
-=begin 
-  users GET    /users(.:format)                                                                         users#index
-                          POST   /users(.:format)                                                                         users#create
-                 new_user GET    /users/new(.:format)                                                                     users#new
-                edit_user GET    /users/:id/edit(.:format)                                                                users#edit
-                     user GET    /users/:id(.:format)      
+url3 = "http://localhost:3000/users/1/"
 
-end=
+puts RestClient.get(url3)
